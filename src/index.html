@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Page Information -->
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <title>Wallet</title>
+        <meta name="author" content="">
+        <meta name='description' content='Ethereum Wallet'>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel='stylesheet' href='styles/styles.min.css'>
+    </head>
+    <body>
+        <!-- Body -->
+        <div id='content'>
+                <h1>My Wallet</h1>
+                <h4>Address: <span id="accountAddress"></span></h4>
+                <h4>ETH Balance: <span id="accountBalance"></span></h4> 
+                <h4>ETH USD Value: <span id="accountBalanceUsd"></span></h4> 
+                <h4># Of Transactinos: <span id="numberOfTransactions"></span></h4> 
+                
+                <br>
+                <h4>Transactions:</h4>
+                <table id="transactionsTable">
+                    <thead>
+                    <tr>
+                      <th>TxHash</th>
+                      <th>Block</th>
+                      <th>TxDate</th>
+                      <th>From</th>
+                      <th>To</th>
+                      <th>Value</th>
+                      <th>TxFee</th>
+                    </tr>
+                    </thead>
+                </table>
+        </div>
+        
+        <!-- Scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src='scripts/scripts.min.js'></script>
+    </body>
+</html>

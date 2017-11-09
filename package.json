@@ -1,0 +1,22 @@
+{
+  "name": "eth-personalwallet",
+  "version": "1.0.0",
+  "author": "Eric Dobyns <ericdobyns@gmail.com>",
+  "description": "A personal ethereum wallet.",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "2.6.5",
+    "del": "^3.0.0",
+    "gulp": "3.8.11",
+    "gulp-concat": "2.5.2",
+    "gulp-imagemin": "2.2.1",
+    "gulp-minify-css": "1.0.0",
+    "gulp-plumber": "1.0.0",
+    "gulp-rename": "1.2.2",
+    "gulp-uglify": "1.2.0",
+    "run-sequence": "^2.2.0",
+    "web3": "^0.20.0"
+  }
+}

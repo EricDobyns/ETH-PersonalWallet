@@ -1,0 +1,30 @@
+# .gitignore
+
+# Configuration
+config/
+configuration/
+config.json
+credentials/
+
+# Logs
+logs/
+.logs/
+*.log
+*.logs
+npm-debug.log*
+
+# Temporary Files
+*.swp
+
+# Build Files
+build/
+dist/
+
+# Dependencies
+node_modules/
+
+# Cache
+.npm
+
+# Operating System
+.DS_Store
